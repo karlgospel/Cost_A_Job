@@ -1296,9 +1296,9 @@ totalCostBoxLabel.grid(column=4,row=9)
 #Create tree view to output Project Materials into
 projectInfotreeMini= ttk.Treeview(jobCostsTab, column=("column1", "column2"), show='headings', height =20)
 projectInfotreeMini.heading("#1", text="Job")
-projectInfotreeMini.column('#1', stretch=YES, width=120)
+projectInfotreeMini.column('#1', stretch=YES, width=200)
 projectInfotreeMini.heading("#2", text="Total Cost")
-projectInfotreeMini.column('#2', stretch=YES, width=80)
+projectInfotreeMini.column('#2', stretch=YES, width=200)
 
 projectInfotreeMini.grid(column=7, row=1, columnspan=2, padx = (10,0), rowspan = 8 )
 projectInfotreeMiniScrollbar = Scrollbar(jobCostsTab)
@@ -1491,9 +1491,9 @@ totalCostBoxLabel.grid(column=4,row=9)
 #Create tree view to output Project Materials into
 MaterialInfoTreeMini= ttk.Treeview(materialCostsTab, column=("column1", "column2"), show='headings', height =20)
 MaterialInfoTreeMini.heading("#1", text="Name")
-MaterialInfoTreeMini.column('#1', stretch=YES, width=100)
+MaterialInfoTreeMini.column('#1', stretch=YES, width=200)
 MaterialInfoTreeMini.heading("#2", text="Total Cost")
-MaterialInfoTreeMini.column('#2', stretch=YES, width=80)
+MaterialInfoTreeMini.column('#2', stretch=YES, width=200)
 
 MaterialInfoTreeMini.grid(column=7, row=1, columnspan=4, padx = (10,0), rowspan = 8 )
 MaterialInfoTreeMiniScrollbar = Scrollbar(materialCostsTab)
